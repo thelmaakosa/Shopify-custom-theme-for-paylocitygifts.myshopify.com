@@ -3,7 +3,7 @@ let myVar = setInterval(myTimer ,100);
 function myTimer() {
     console.log("1");
 
-    if ($("#product_form_7680648970389 .pplr-letter").length){
+    if ($("#shopify-section-product-template .product-form .pplr-letter").length){
         show_rep_search();
         clearInterval(myVar);
     }
