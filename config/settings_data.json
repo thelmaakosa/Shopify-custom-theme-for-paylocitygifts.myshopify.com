@@ -580,7 +580,7 @@
       "1588134714642": {
         "type": "featured-collection",
         "settings": {
-          "title": "$20 GIFT SETS",
+          "title": "Door Opener Gifts",
           "collection": "20-sets",
           "use_carousel": false,
           "background_color": "rgba(0,0,0,0)"
@@ -601,7 +601,7 @@
       "1663873799680e10ed": {
         "type": "featured-collection",
         "settings": {
-          "title": "$50 GIFT SETS",
+          "title": "Thank You Gifts",
           "collection": "50",
           "use_carousel": false,
           "background_color": "#ffffff"

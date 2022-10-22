@@ -413,7 +413,7 @@
       },
       "payment": {
         "free_order_notice_html": "Your gift is <strong>compliments of the Indianapolis Colts. <\/strong> Please click \"Complete order\" below to complete your order. Thank you!",
-        "card_security_notice": "Please enter your unique code in the \"Promo code\" spot to the right to redeem your gift."
+        "card_security_notice": "Please enter your unique code in the \"Promo code\" spot to the right to redeem your gift. Any additional expense above the gift card allotment may not be expensed to Paylocity Corporate "
       },
       "contact": {
         "shipping_address_title": "Contact information"
