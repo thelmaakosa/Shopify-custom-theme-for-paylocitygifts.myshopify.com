@@ -377,10 +377,10 @@
     "coll_col_sale": "#cc1525",
     "coll_col_sold": "#454f5b",
     "coll_col_gen": "#cc1525",
-    "cross_page_promo_bg": "#f4f6f8",
+    "cross_page_promo_bg": "#fafafa",
     "cross_page_promo_color": "#212b36",
     "foot_bg_col": "#f65a1f",
-    "foot_text_col": "#ffffff",
+    "foot_text_col": "#fafafa",
     "foot_divider_col": "#dfe3e8",
     "type_heading_font": "nunito_n4",
     "type_base_font": "nunito_n4",
@@ -508,8 +508,8 @@
         "settings": {
           "menu_linklist": "footer",
           "show_social_icons": false,
-          "signup_show": false,
-          "newsletter_title": "Signup for our newsletter",
+          "signup_show": true,
+          "newsletter_title": "SHIPPING INCLUDED IN ALL PRODUCT PRICES.",
           "newsletter_text": ""
         }
       },
