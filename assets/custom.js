@@ -7,6 +7,7 @@
         if ($("#shopify-section-product-template .product-form .pplr-letter").length && $("#shopify-section-product-template .product-form .pplr-recipient-email").length){
             show_rep_search();
             email_validation();
+            recipient_name_update()
             clearInterval(myVar);
         }
     }
@@ -47,4 +48,14 @@
         else {
             return true;
         }
+    }
+
+    function recipient_name_update(){
+        $(".pplr-recipient-first-name input").focusout(function() {
+            $(".pplr-recipient-name input").val($(".pplr-recipient-first-name input").val().trim() + " " + $(".pplr-recipient-last-name input").val().trim());
+        });
+
+        $(".pplr-recipient-last-name input").focusout(function() {
+            $(".pplr-recipient-name input").val($(".pplr-recipient-first-name input").val().trim() + " " + $(".pplr-recipient-last-name input").val().trim());
+        })
     }
