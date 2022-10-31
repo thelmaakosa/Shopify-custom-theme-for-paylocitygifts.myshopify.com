@@ -4,6 +4,7 @@
         <h2>Search Name of Sales Rep for Letter Signature</h2>
         <br>
         <input id="search" type="text" class="form-control"  placeholder="Search for name and email......">
+        <button id="rep-button">Select</button>
         <br>
 
         <table id="rep-search-table" class="table">
@@ -520,6 +521,8 @@
     $(".rep-search-inner #fancybox-close").click(function(){
         $(".container.rep-search").css("display", "none");
         $(".rep-overlay").css("display", "none");
+        $(".product-form .pplr-letter input").val("");
+        $(".product-form .pplr-rep-email input").val("");
     })
 
     // Rep Table Row Selection
@@ -534,6 +537,10 @@
         console.log(rep_name);
         console.log(rep_email);
 
+    })
+    $("#rep-button").click(function(){
+        $(".container.rep-search").css("display", "none");
+        $(".rep-overlay").css("display", "none");
     })
 
 </script>
@@ -570,7 +577,14 @@
         background: #ffffff;
     }
     .container.rep-search .form-control{
+        width: calc(98.5% - 100px);
+        display: inline-block;
         border-width: 3px;
+    }
+    @media only screen and (max-width: 767px){
+        .container.rep-search .form-control{
+            width: calc(95% - 100px);
+        }
     }
     .pplr-rep-email{
         display:none !important;
@@ -627,17 +641,23 @@
         border-color: #337ab7;
         color: white;
     }
+    .rep-search #rep-button{
+        width: 100px;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 7px 5px;
+    }
 
     @media only screen and (max-width: 767px){
         .container.rep-search{
-            margin-top: 90px;
-            max-width: 94%;
-            margin-left: 3%;
-            padding: 20px;
+            top: 8%;
+            max-width: 96%;
+            margin-left: 2%;
+            padding: 20px 5px;
         }
         .rep-search #fancybox-close{
             top: -20px;
-            right: -25px;
+            right: -7px;
             width: 30px;
             height: 30px;
             background-size: 40px 40px;
