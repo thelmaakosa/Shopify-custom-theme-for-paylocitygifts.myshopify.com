@@ -46,10 +46,10 @@
   {% include 'meteor-menu', load: 'head' %}
   {{ content_for_header }}
   {% include 'minmaxify-head' %}
-{% include 'mincart' %}{% include 'sales-motivator-init' %}{% include 'sca.freegifts' %}
-{% render "zepto_common" %}
- {% render 'multiship' %} 
-{% render 'wsg-custom' %}
+  {% include 'mincart' %}{% include 'sales-motivator-init' %}{% include 'sca.freegifts' %}
+  {% render "zepto_common" %}
+  {% render 'multiship' %} 
+  {% render 'wsg-custom' %}
 
   {% if template contains 'product' %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
