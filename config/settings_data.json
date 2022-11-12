@@ -346,7 +346,7 @@
     "lightbox_imgs": true,
     "use_fullwidth_layout": true,
     "font_col_base": "#212b36",
-    "font_col_link": "#212b36",
+    "font_col_link": "#ffffff",
     "font_col_link_hover": "#dfe3e8",
     "font_col_heads": "#212b36",
     "font_col_shoptitle": "#212b36",
@@ -479,7 +479,7 @@
           "nav_autoexpand": false,
           "nav_featured_link": "Sale",
           "nav_featured_col": "#00095b",
-          "logo": "shopify:\/\/shop_images\/01-Paylocity-Primary-LogoTag-Lock.png",
+          "logo": "shopify:\/\/shop_images\/Partner_Logo_Lock_Up.jpg",
           "logo_img_width": "200",
           "logo_pos": "",
           "announcement_show": false,
@@ -520,7 +520,7 @@
           "prod_show_type": false,
           "prod_gall_thumbs_under": "beside",
           "prod_desc_pos": "beside",
-          "enable_payment_button": false,
+          "enable_payment_button": true,
           "show_related_products": true
         }
       },
